@@ -170,12 +170,6 @@ var moves = {
       //If healthy, go capture a diamond mine!
       return helpers.findNearestUnownedDiamondMine(gameData);
     }
-  },
-
-  // The "Coward"
-  // This hero will try really hard not to die.
-  coward : function(gameData, helpers) {
-    return helpers.findNearestHealthWell(gameData);
   }
  };
 
